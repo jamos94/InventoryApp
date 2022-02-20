@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".smsActivity"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/smsmessage"
+        android:layout_width="314dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="167dp"
+        android:text="Enter phone number to enable SMS notifications" />
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/smsmessage"
+        android:layout_marginTop="50dp"
+        android:hint="(888)888-8888"
+        android:minHeight="48dp" />
+    <Button
+        android:id="@+id/messagesignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable messaging"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/phonenumber"/>
+    <Button
+        android:id="@+id/skipped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip for now"
+        android:layout_below="@+id/messagesignup"/>
+
+</RelativeLayout>
