@@ -9,8 +9,3 @@ When preparing to code this app, I organized the application by activities first
 
 I tested the code through each interval of coding. This ensured that errors were found quickly through development. Finally after developing the front and back-end, 
 
-How did you test to ensure your code was functional? Why is this process important and what did it reveal?
-
-Considering the full app design and development process, from initial planning to finalization, where did you have to innovate to overcome a challenge?
-
-In what specific component from your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
